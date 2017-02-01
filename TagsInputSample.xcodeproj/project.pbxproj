@@ -8,39 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ED8250A41A8A91E000528293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8250A31A8A91E000528293 /* main.m */; };
-		ED8250A71A8A91E000528293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8250A61A8A91E000528293 /* AppDelegate.m */; };
 		ED8250AA1A8A91E000528293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8250A91A8A91E000528293 /* ViewController.m */; };
 		ED8250AD1A8A91E000528293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8250AB1A8A91E000528293 /* Main.storyboard */; };
-		ED8250AF1A8A91E000528293 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8250AE1A8A91E000528293 /* Images.xcassets */; };
 		ED8250B21A8A91E000528293 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8250B01A8A91E000528293 /* LaunchScreen.xib */; };
-		ED8250BE1A8A91E000528293 /* TagsInputSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8250BD1A8A91E000528293 /* TagsInputSampleTests.m */; };
 		ED8250CA1A8A927A00528293 /* TLTagsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8250C91A8A927A00528293 /* TLTagsControl.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ED8250B81A8A91E000528293 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED8250961A8A91DF00528293 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED82509D1A8A91E000528293;
-			remoteInfo = TagsInputSample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ED82509E1A8A91E000528293 /* TagsInputSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagsInputSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8250A21A8A91E000528293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED8250A31A8A91E000528293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ED8250A51A8A91E000528293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ED8250A61A8A91E000528293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED8250A81A8A91E000528293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ED8250A91A8A91E000528293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED8250AC1A8A91E000528293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED8250AE1A8A91E000528293 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED8250B11A8A91E000528293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		ED8250B71A8A91E000528293 /* TagsInputSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagsInputSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED8250BC1A8A91E000528293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED8250BD1A8A91E000528293 /* TagsInputSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsInputSampleTests.m; sourceTree = "<group>"; };
 		ED8250C81A8A927A00528293 /* TLTagsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLTagsControl.h; path = TLTagsContol/TLTagsControl.h; sourceTree = SOURCE_ROOT; };
 		ED8250C91A8A927A00528293 /* TLTagsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLTagsControl.m; path = TLTagsContol/TLTagsControl.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -53,31 +33,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED8250B41A8A91E000528293 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		ED8250951A8A91DF00528293 = {
 			isa = PBXGroup;
 			children = (
-				ED8250C71A8A923600528293 /* TLTagsControl */,
+				ED8250C81A8A927A00528293 /* TLTagsControl.h */,
+				ED8250C91A8A927A00528293 /* TLTagsControl.m */,
 				ED8250A01A8A91E000528293 /* TagsInputSample */,
-				ED8250BA1A8A91E000528293 /* TagsInputSampleTests */,
 				ED82509F1A8A91E000528293 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		ED82509F1A8A91E000528293 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				ED82509E1A8A91E000528293 /* TagsInputSample.app */,
-				ED8250B71A8A91E000528293 /* TagsInputSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,51 +58,12 @@
 		ED8250A01A8A91E000528293 /* TagsInputSample */ = {
 			isa = PBXGroup;
 			children = (
-				ED8250A51A8A91E000528293 /* AppDelegate.h */,
-				ED8250A61A8A91E000528293 /* AppDelegate.m */,
-				ED8250A81A8A91E000528293 /* ViewController.h */,
 				ED8250A91A8A91E000528293 /* ViewController.m */,
 				ED8250AB1A8A91E000528293 /* Main.storyboard */,
-				ED8250AE1A8A91E000528293 /* Images.xcassets */,
 				ED8250B01A8A91E000528293 /* LaunchScreen.xib */,
-				ED8250A11A8A91E000528293 /* Supporting Files */,
-			);
-			path = TagsInputSample;
-			sourceTree = "<group>";
-		};
-		ED8250A11A8A91E000528293 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				ED8250A21A8A91E000528293 /* Info.plist */,
 				ED8250A31A8A91E000528293 /* main.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		ED8250BA1A8A91E000528293 /* TagsInputSampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				ED8250BD1A8A91E000528293 /* TagsInputSampleTests.m */,
-				ED8250BB1A8A91E000528293 /* Supporting Files */,
-			);
-			path = TagsInputSampleTests;
-			sourceTree = "<group>";
-		};
-		ED8250BB1A8A91E000528293 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ED8250BC1A8A91E000528293 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		ED8250C71A8A923600528293 /* TLTagsControl */ = {
-			isa = PBXGroup;
-			children = (
-				ED8250C81A8A927A00528293 /* TLTagsControl.h */,
-				ED8250C91A8A927A00528293 /* TLTagsControl.m */,
-			);
-			name = TLTagsControl;
 			path = TagsInputSample;
 			sourceTree = "<group>";
 		};
@@ -153,39 +87,17 @@
 			productReference = ED82509E1A8A91E000528293 /* TagsInputSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED8250B61A8A91E000528293 /* TagsInputSampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED8250C41A8A91E000528293 /* Build configuration list for PBXNativeTarget "TagsInputSampleTests" */;
-			buildPhases = (
-				ED8250B31A8A91E000528293 /* Sources */,
-				ED8250B41A8A91E000528293 /* Frameworks */,
-				ED8250B51A8A91E000528293 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ED8250B91A8A91E000528293 /* PBXTargetDependency */,
-			);
-			name = TagsInputSampleTests;
-			productName = TagsInputSampleTests;
-			productReference = ED8250B71A8A91E000528293 /* TagsInputSampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		ED8250961A8A91DF00528293 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = TheLightPrjg;
 				TargetAttributes = {
 					ED82509D1A8A91E000528293 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					ED8250B61A8A91E000528293 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = ED82509D1A8A91E000528293;
 					};
 				};
 			};
@@ -203,7 +115,6 @@
 			projectRoot = "";
 			targets = (
 				ED82509D1A8A91E000528293 /* TagsInputSample */,
-				ED8250B61A8A91E000528293 /* TagsInputSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,14 +126,6 @@
 			files = (
 				ED8250AD1A8A91E000528293 /* Main.storyboard in Resources */,
 				ED8250B21A8A91E000528293 /* LaunchScreen.xib in Resources */,
-				ED8250AF1A8A91E000528293 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED8250B51A8A91E000528293 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,29 +137,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8250AA1A8A91E000528293 /* ViewController.m in Sources */,
-				ED8250A71A8A91E000528293 /* AppDelegate.m in Sources */,
 				ED8250CA1A8A927A00528293 /* TLTagsControl.m in Sources */,
 				ED8250A41A8A91E000528293 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED8250B31A8A91E000528293 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED8250BE1A8A91E000528293 /* TagsInputSampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ED8250B91A8A91E000528293 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ED82509D1A8A91E000528293 /* TagsInputSample */;
-			targetProxy = ED8250B81A8A91E000528293 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ED8250AB1A8A91E000528293 /* Main.storyboard */ = {
@@ -291,15 +177,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -332,8 +222,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -341,6 +233,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -360,6 +253,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TagsInputSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thelightprj.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -370,41 +264,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TagsInputSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thelightprj.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		ED8250C51A8A91E000528293 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TagsInputSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagsInputSample.app/TagsInputSample";
-			};
-			name = Debug;
-		};
-		ED8250C61A8A91E000528293 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = TagsInputSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagsInputSample.app/TagsInputSample";
 			};
 			name = Release;
 		};
@@ -427,14 +288,7 @@
 				ED8250C31A8A91E000528293 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		ED8250C41A8A91E000528293 /* Build configuration list for PBXNativeTarget "TagsInputSampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED8250C51A8A91E000528293 /* Debug */,
-				ED8250C61A8A91E000528293 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
